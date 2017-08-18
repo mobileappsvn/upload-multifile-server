@@ -1,12 +1,12 @@
 <html>
 <head>
-<title>Multiple File Upload Demo Application</title>
+<title>Multiple File Upload Demo WS</title>
 </head>
 <body>
     <form action="api/upload/multipleFiles" method="POST"
         enctype="multipart/form-data">
         <div id="fileSection">
-            <h1>Multiple File Upload Demo Application</h1>
+            <h1>Multiple File Upload Demo WS</h1>
             <table>
                 <tr>
                     <td>Candidate Name:</td>
