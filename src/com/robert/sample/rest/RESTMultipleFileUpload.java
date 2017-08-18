@@ -34,7 +34,7 @@ public class RESTMultipleFileUpload {
 	@Consumes(MediaType.MULTIPART_FORM_DATA)
 	@Path(StringApiConstant.API_UPLOAD)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response registerWebService(@Context HttpServletRequest request) {
+	public Response uploadMultiFile(@Context HttpServletRequest request) {
 		
 		String candidateName = null;
 
