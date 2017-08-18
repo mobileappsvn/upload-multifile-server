@@ -1,0 +1,18 @@
+
+How token-based authentication works
+
+In token-based authentication, the client exchanges hard credentials (such as username and password) for a piece of data called token. 
+Instead of sending the hard credentials in every request, the client will send the token to the server to perform authentication and authorization.
+
+In a few words, an authentication scheme based on tokens follow these steps:
+
+1. The client sends their credentials (username and password) to the server.
+2. The server authenticates the credentials and generates a token.
+3. The server stores the previously generated token in some storage along with the user identifier and an expiration date.
+4. The server sends the generated token to the client.
+5. In every request, the client sends the token to the server.
+6. The server, in each request, extracts the token from the incoming request. 
+	With the token, the server looks up the user details to perform authentication and authorization.
+	6.1 If the token is valid, the server accepts the request.
+	6.2 If the token is invalid, the server refuses the request.
+7. The server can provide an endpoint to refresh expired tokens.
