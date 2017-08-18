@@ -1,4 +1,4 @@
-# upload-multifile-server
+# Upload-multifile-server
 The upload multi file demo with RESTful sample for java server
 
 1. Setup mongoDB via https://www.mongodb.com/download-center#atlas
