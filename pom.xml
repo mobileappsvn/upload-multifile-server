@@ -15,7 +15,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<jax-rs-version>1.1.1</jax-rs-version>
 		<json4s-jackson-version>3.2.4</json4s-jackson-version>
 		<json4s-core-version>3.2.4</json4s-core-version>
-		<fasterxml-json-version>2.9.10.1</fasterxml-json-version>
+		<fasterxml-json-version>2.12.7.1</fasterxml-json-version>
 		<scala-lang-version>2.10.0</scala-lang-version>
 		<reflections-version>0.9.8</reflections-version>
 		<javassist-version>3.18.1-GA</javassist-version>
